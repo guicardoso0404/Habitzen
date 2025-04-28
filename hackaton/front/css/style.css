@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #34425c;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'ABeeZee', sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #d3d8f0;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .botoes {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+  }
+  
+  .botao {
+    background-color: #d3d8f0;
+    border: none;
+    border-radius: 20px;
+    padding: 0.6rem 0;
+    width: 120px;
+    font-size: 1rem;
+    color: #2f3a4e;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .botao:hover {
+    background-color: #c4cae4;
+  }
+  
